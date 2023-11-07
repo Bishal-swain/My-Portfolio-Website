@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/db536a4e6c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+           <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Cloud Engineer</p>
+                <h1>Hi,I'm <span>Bishal</span><br> Swain From India</h1>
+            </div>
+           </div> 
+        </div>
+    <!---------About------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="badal2.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About me</h1>
+                        <p>As a recent graduate and aspiring Cloud Engineer, I'm enthusiastic about harnessing the power of cloud technologies to drive innovation and solve complex problems. My journey into the world of cloud computing started with a strong curiosity and a relentless desire to learn.During my academic journey, I had the privilege of gaining hands-on experience with cloud platforms like AWS, Azure, and Google Cloud. I was captivated by the potential of these platforms to transform industries and improve the way we interact with technology.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick ="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>Java , C# , C , Python , Javascript</li>
+                                <li><span>Web Design</span><br>Responsive Design , HTML & CSS , BOOTSTRAP</li>
+                                <li><span>Database Technologies</span><br> My SQL , DynamoDB , RDB , SQL Server</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Internship at Teachnook - Web Development Course</span><br>Assisted in designing and delivering web development courses to students, providing fundamental knowledge of HTML, CSS, JavaScript, and responsive design principles.</li>
+                                <li><span>Projects</span><br>I am a dynamic and passionate individual with a diverse skill set and a strong foundation in cloud engineering, data analysis, and web development. As a fresher, I am committed to learning and growing in the ever-evolving world of technology.Below are a few projects that highlight my abilities and experiences in these domains: "AWS S3 Website Hosting","IPL Matches Prediction in Python", "PhysioExpert Website"  </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Master of Computer Application (MCA)</span><br>Centurion University Of technology and management ,Bhubaneswar,Odisha<br>
+
+                                    Expected Completion Date: 2024</li>
+                                <li><span>Bachelor of Science (BSc)</span><br> Karilopatna Degree College, Kendrapara <br>
+                                    
+                                    Year of Completion: Aug 2022</li>
+                                <li><span>Higher Secondary (+2)</span><br> Kendrapara Residential College of Science and Technology, Kendrapara<br>
+                                    
+                                    Year of Completion: Jun 2019</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------services---------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My services</h1>
+                <div class="services-list">
+<div>
+    <i class="fa-solid fa-globe"></i>
+    <h2>Web design</h2>
+    <p> ocbdjcbdcvhbqwdiygvyiedvjhd jvbednvbdjlbdmnb lkkn,dsncvm,nd,mcvn</p>
+    <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-brands fa-aws"></i>
+    <h2>Aws</h2>
+    <p> ocbdjcbdcvhbqwdiygvyiedvjhd jvbednvbdjlbdmnb lkkn,dsncvm,nd,mcvn</p>
+    <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-solid fa-cloud"></i>
+    <h2>Google cloud</h2>
+    <p> ocbdjcbdcvhbqwdiygvyiedvjhd jvbednvbdjlbdmnb lkkn,dsncvm,nd,mcvn</p>
+    <a href="#">Learn more</a>
+</div>
+                </div>  
+            </div>
+        </div>
+
+        <!-- --------------portfolio----------- -->
+        <div id="portfolio">
+            <div class="container">
+            <h1 class="subtitle">My Achievements</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="CLOUD1.png">
+                <div class="layer">
+                    <h3> AWS Solution Architect </h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="CLOUD2.png">
+                <div class="layer">
+                    <h3> AWS Cloud Foundation </h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="CLOUD3.png">
+                <div class="layer">
+                    <h3> AWS Cloud Security Foundation </h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- -------------contact------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact me</h1>
+                        <p> <a href=""><i class="fas fa-paper-plane"></i>badalswain790@gmail.com</p>
+                        <p> <a href=""><i class="fas fa-phone-square-alt"></i>9178030100</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/bishalswain.badal?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/BishalSwain18"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/__.spy_d.__?igshid=MW94cjlrdmNtaXJ3cg=="><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/bishal-swain-7b239126a/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="dataForm">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class ="fas fa-heart"></i></p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+           
+            
+        </script>
+        <script>
+            var sidemeu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+        </script>
+        <script>
+            function submitData() {
+              var form = document.getElementById("dataForm");
+              var formData = new FormData(form);
+        
+              fetch('https://script.google.com/a/macros/cutm.ac.in/s/AKfycbzLsgP5XBHmuI24ZCIYh81L9EYjy-QInIqPerXGbfVo-IO-RuE7lnhGpZ04YRMMJRdw/exec', {
+                method: 'POST',
+                body: formData
+              })
+              .then(response => response.text())
+              .then(data => {
+                document.getElementById('response').textContent = data;
+                form.reset();
+              });
+            }
+          </script>
+    </body>
+</html>
